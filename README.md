@@ -1,4 +1,4 @@
-#CRUD - frontend
+# CRUD - frontend
 
 User registration project in order to learn how to use CRUD operations.  
 Making request to a fake api created with json-server: [crud-backend](https://github.com/afmdaniel/crud-backend)
