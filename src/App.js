@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import React from 'react';
 import './App.css';
 
@@ -11,7 +13,7 @@ function App(props) {
     <div className="App">
       <Logo />
       <Nav />
-      <Main />
+      <Main icon="home" title="Home" subtitle="User Registration"/>
       <Footer />
     </div>
   );
