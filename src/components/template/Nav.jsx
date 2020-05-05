@@ -1,16 +1,13 @@
 import './Nav.css';
 import React from 'react';
+import NavItem from './NavItem'
 
 function Nav(props) {
     return (
         <aside className="menu-area">
             <nav className="menu">
-                <a href="#/">
-                    <i className="fa fa-home"></i> Home
-                </a>
-                <a href="#/users">
-                    <i className="fa fa-users"></i> Users
-                </a>
+                <NavItem href="#/" icon="home" title="Home" />
+                <NavItem href="#/users" icon="users" title="Users" />
             </nav>
         </aside>
     );
