@@ -3,7 +3,7 @@ import Main from '../template/Main';
 
 function Home(props) {
     return (
-        <Main icon="home" title="Início" subtitle="User Registration with React">
+        <Main icon="home" title="Home" subtitle="User Registration with React">
             <div className="display-4">Welcome!</div>
             <hr />
             <p className="mb-0">System created to do CRUD operations</p>
