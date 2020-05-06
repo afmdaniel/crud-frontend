@@ -9,3 +9,15 @@ a.nav-item {
 a.nav-item:hover {
     background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
 }
+
+@media(max-width: 768px){
+    a.nav-item {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+        padding: 0px 10px;
+        height: 100%;
+    }   
+}

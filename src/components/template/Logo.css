@@ -3,6 +3,7 @@ aside.logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%
 }
 
 aside.logo > a {
@@ -13,3 +14,9 @@ aside.logo img {
     padding: 0px 15px;
     height: 100%;
 }
+
+@media(max-width: 600px) {
+    aside.logo {
+      display: none;
+    }
+  }
