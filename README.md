@@ -3,6 +3,7 @@
 User registration project in order to use CRUD operations.  
 Making request to a fake api created with json-server: [crud-backend](https://github.com/afmdaniel/crud-backend)
 
+![screenshot](./public/screenshot.PNG)
 
 This project is product of personal studies.  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
