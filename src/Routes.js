@@ -7,8 +7,12 @@ import UserCrud from './components/user/UserCrud';
 function Routes(props) {
     return (
         <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/users' component={UserCrud} />
+            <Route exact path='/'>
+                <Home />
+            </Route>
+            <Route path='/users'>
+                <UserCrud />
+            </Route>
             <Redirect from='*' to='/' />
         </Switch>
     );
