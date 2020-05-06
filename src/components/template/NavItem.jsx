@@ -1,11 +1,13 @@
 import './NavItem.css';
 import React from 'react';
 
+import { Link } from 'react-router-dom'
+
 function NavItem(props) {
     return (
-        <a href={props.href} className="nav-item">
+        <Link to={props.href} className="nav-item">
              <i className={`fa fa-${props.icon}`}></i> {props.title}
-        </a>
+        </Link>
     );
 }
 
